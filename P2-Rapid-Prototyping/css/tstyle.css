@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.carousel-inner>.item>img {
+margin: 0 auto;
+}
+
+.hero-unit {
+	padding:30px 60px;
+}
+
+.hero-unit>.row-fluid>img {
+	height:200px;
+}
+
