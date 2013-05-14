@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+.hero-unit h1 span{
+font-size: 100px;
+line-height: 1;
+letter-spacing: -1px;
+color: black;
+}
+
+#heading_span {
+	padding-top:54px;
+}
+
+#wiki_span {
+	padding-top:35px;
+}
