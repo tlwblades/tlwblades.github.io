@@ -1,15 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.navbar-inner {
+	background-image: linear-gradient(to bottom, rgb(255, 255, 255), rgb(60, 60, 60));
+	background-repeat: repeat-x;
+	border: 1px solid #d4d4d4;
+	
+}
+
+#myCarousel{
+	margin-top:115px;
+}
+
 .carousel-inner>.item>img {
 margin: 0 auto;
 }
 
-.hero-unit {
-	padding:30px 60px;
+#nav-heading {
+	margin-left: 0px;
+	padding-left: 40px;
+	text-align: center;
 }
 
-.hero-unit>.row-fluid>img {
-	height:200px;
+#pg_btn {
+	float:right;
 }
-
