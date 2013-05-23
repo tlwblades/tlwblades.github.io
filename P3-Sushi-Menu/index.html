@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Rising Sun Cafe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> 
+        <meta name="description" content="Rising Sun Cafe Menu" />
+        <meta name="author" content="Troy Wellington and Pedro Botelho" />
+        <link rel="shortcut icon" href="images/favicon.png"> 
+		<link href='http://fonts.googleapis.com/css?family=Average+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Shojumaru' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+		<script type="text/javascript" src="js/modernizr.custom.08464.js"></script>
+		<script id="pageTmpl" type="text/x-jquery-tmpl">
+			<div class="${theClass}" style="${theStyle}">
+				<div class="front">
+					<div class="outer">
+						<div class="content" style="${theContentStyleFront}">
+							<div class="inner">{{html theContentFront}}</div>
+						</div>
+					</div>
+				</div>
+				<div class="back">
+					<div class="outer">
+						<div class="content" style="${theContentStyleBack}">
+							<div class="inner">{{html theContentBack}}</div>
+						</div>
+					</div>
+				</div>
+			</div>			
+		</script>
+    </head>
+   
+   
+    <body>
+		
+		<header class="main-title">
+			<img src="images/Rising-Sun-Title.png" alt="Rising Sun Icon"/>
+            <div class="cover-bg">
+              <h2>Sushi and</h2>
+              <h2>Traditional Japanese</h2>
+              <h2>Cusine</h2>
+              </br>
+              </br>
+              <p><strong>(509) 555-6789</strong></p>
+            </div>
+		</header>
+        
+
+		
+		<div id="flip" class="container">
+		
+			<div class="f-page f-cover">
+				<div class="cover-elements">
+                	<img src="images/Rising-Sun-Title.png"/>
+					<div class="f-cover-story">Sushi and Traditional Japanese Cusine</div>
+				</div>
+				<div class="f-cover-flip">&lt; Flip</div>
+			</div>
+			
+			<div class="f-page">
+				<div class="f-title">
+					<h2>Rising Sun Cafe</h2>
+                </div>
+				<div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-1"></div>
+					<h3>Spiral Ecstasy Roll</span></h3>
+				</div>
+
+
+			
+                <div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-1"></div>
+					<h3>Big Tempura Maki</span></h3>
+				</div>
+                
+                <div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-1"></div>
+					<h3>Kanki By The Sea</span></h3>
+				</div>
+                
+                <div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-1"></div>
+					<h3>Banzai Roll</span></h3>
+				</div>
+				
+			</div>
+			
+			<div class="f-page">
+								<div class="f-title">
+					<h2>Rising Sun Cafe</h2>
+                </div>
+				<div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-1"></div>
+					<h3>Scallop Banzai Roll</span></h3>
+				</div>
+
+
+			
+                <div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-1"></div>
+					<h3>Tuna Rio</span></h3>
+				</div>
+                
+                <div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-1"></div>
+					<h3>Sheila Maki</span></h3>
+				</div>
+                
+                <div class="box w-50 h-50 title-top box-img-left">
+					<div class="img-cont img-1"></div>
+					<h3>Volcano RollTM</span></h3>
+				</div>
+			</div>
+			
+			
+			
+			<div class="f-page f-cover-back">
+				<div id="codrops-ad-wrapper">
+					
+				</div>
+			</div>
+		</div>
+        
+        <footer>
+        	<p><strong>1106 Hungry St., Spokane, WA. 99210</strong></p>
+        
+        </footer>
+	
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script type="text/javascript">
+				
+			var $container 	= $( '#flip' ),
+				$pages		= $container.children().hide();
+			
+			Modernizr.load({
+				test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+				yep : ['js/jquery.tmpl.min.js','js/jquery.history.js','js/core.string.js','js/jquery.touchSwipe-1.2.5.js','js/jquery.flips.js'],
+				nope: 'css/fallback.css',
+				callback : function( url, result, key ) {
+					
+					if( url === 'css/fallback.css' ) {
+						$pages.show();
+					}
+					else if( url === 'js/jquery.flips.js' ) {
+						$container.flips();
+					}
+			
+				}
+			});
+				
+		</script>
+    </body>
+</html>
