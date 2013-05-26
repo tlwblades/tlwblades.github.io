@@ -129,7 +129,7 @@
 	font-size: 30px;
 	line-height: 46px;
 	position: absolute;
-	bottom: 200px;
+	bottom: 16%;
 	margin-left:auto;
 	margin-right:auto;
 	text-transform: uppercase;
@@ -492,5 +492,7 @@ a.f-ref{
 		margin:auto;
 		display:none;
 	}
+	
+
 	
 }

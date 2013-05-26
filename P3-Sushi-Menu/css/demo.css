@@ -61,8 +61,22 @@ a{
 	text-align:center;
 }
 
-footer {
-	text-align:center;
+#b-cover-story{
+  text-align:center;
+  font-family: 'Shojumaru', cursive;
+  	color:rgba(138,0,0,1);
+  text-shadow: 0px -2px 0px #804000,
+				0px 2px 3px #C48209;
+  font-weight: 200px;
+  font-size: 30px;
+  line-height: 46px;
+  position: absolute;
+  padding-left:4%;
+  bottom: 16%;
+  margin-left:auto;
+  margin-right:auto;
+  text-transform: uppercase;
+  cursor: default;
 }
 
 .cover-bg {
