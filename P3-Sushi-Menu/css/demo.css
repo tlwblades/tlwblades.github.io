@@ -9,7 +9,8 @@
 }
 body{
 	font-family: 'Average Sans', sans-serif;
-	background: #ddd url(../images/place_setting.png) repeat top left;
+	background: #ddd url(../images/place_setting.png);
+	background-size:cover;
 	font-weight: 400;
 	font-size: 15px;
 	color: #000;
