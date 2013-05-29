@@ -122,18 +122,19 @@
 .page.cover .f-cover-story{
 	text-align:center;
 	font-family: 'Shojumaru', cursive;
-	color:rgba(138,0,0,1);
+	color:rgba(204,162,53,0.88);
 	text-shadow: 0px -2px 0px #804000,
                   0px 2px 3px #C48209;
 	font-weight: 200px;
 	font-size: 30px;
 	line-height: 46px;
 	position: absolute;
-	bottom: 16%;
+	top: 40%;
 	margin-left:auto;
 	margin-right:auto;
 	text-transform: uppercase;
 	cursor: default;
+	width:97%;
 }
 a.f-ref{
 	line-height: 20px;
@@ -287,7 +288,7 @@ a.f-ref{
 .box h3{
 	padding: 10px 0px;
 	margin: 0;
-	font-size: 18px;
+	font-size: 35px;
 	font-family: 'Average Sans', sans-serif;
 }
 .box h3 span{
@@ -323,7 +324,7 @@ a.f-ref{
 	padding: 0;
 	text-align: justify;
 	font-family: Georgia;
-	font-size: 13px;
+	font-size: 25px;
 	line-height: 20px;
 	display:block;
 	position: relative;
@@ -414,7 +415,7 @@ a.f-ref{
 }
 
 .box.box-expanded p{
-	font-size: 20px;
+	font-size: 23px;
 	line-height: 30px;
 	max-width:58%;
 }
@@ -492,6 +493,8 @@ a.f-ref{
 		margin:auto;
 		display:none;
 	}
+	
+
 	
 
 	
